@@ -1,101 +1,72 @@
 @charset "UTF-8";
-/* line 7, extend.scss */
 .clearfix, .fixedmenu {
-  *zoom: 1;
-}
-/* line 11, extend.scss */
-.clearfix:after, .fixedmenu:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+  *zoom: 1; }
+  .clearfix:after, .fixedmenu:after {
+    content: "";
+    display: table;
+    clear: both; }
 
-/* line 6, layout.scss */
 html, body, #wrapper {
-  height: 100%;
-}
+  height: 100%; }
 
-/* line 10, layout.scss */
 html {
-  overflow-y: scroll;
-}
+  overflow-y: scroll; }
 
-/* line 14, layout.scss */
 body > #wrapper {
-  height: auto;
-}
+  height: auto; }
 
-/* line 18, layout.scss */
 #wrapper {
   min-height: 100%;
   overflow: hidden;
-  position: relative;
-}
+  position: relative; }
 
-/* line 24, layout.scss */
 #header {
   width: 100%;
   height: 200px;
-}
+  background: #000; }
 
-/* line 29, layout.scss */
 #contents {
   width: 100%;
   min-height: 100%;
-  padding: 0 0 300px;
-}
+  padding: 0 0 300px; }
 
-/* line 36, layout.scss */
 .fixedmenu {
   height: 50px;
   position: relative;
-  z-index: 20;
-}
-/* line 41, layout.scss */
-.fixedmenu h1 {
-  display: block;
-  float: left;
-  width: 30%;
-  height: 250px;
-  box-sizing: border-box;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  transition: all 0.2s linear;
-}
-/* line 52, layout.scss */
-.fixedmenu.fixed {
-  width: 100%;
-}
-/* line 54, layout.scss */
-.fixedmenu.fixed h1 {
-  height: 50px;
-}
+  z-index: 20; }
+  .fixedmenu h1 {
+    display: block;
+    float: left;
+    width: 30%;
+    height: 250px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear; }
+  .fixedmenu.fixed {
+    width: 100%; }
+    .fixedmenu.fixed h1 {
+      height: 50px; }
 
-/* line 60, layout.scss */
 .fixed {
-  position: fixed !important;
-}
+  position: fixed !important; }
 
-/* line 64, layout.scss */
 #main {
   width: 100%;
   min-height: 1000px;
   padding-top: 30px;
   /*background: #fff;
-   position: relative;
-   z-index: 10;*/
-}
+    position: relative;
+    z-index: 10;*/ }
 
-/* line 73, layout.scss */
 #footer {
   width: 100%;
   height: 300px;
   position: absolute;
-  bottom: 0;
-}
+  bottom: 0; }
 
-/* line 80, layout.scss */
 #hiddenWin {
   display: block;
   width: 100%;
@@ -103,30 +74,25 @@ body > #wrapper {
   position: fixed;
   top: -100%;
   cursor: pointer;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   z-index: 21;
   background: rgba(0, 0, 0, 0.6);
-  color: #fff;
-}
+  color: #fff; }
 
-/* line 93, layout.scss */
 .showbtn1 {
   display: block;
   float: right;
   width: 60px;
   height: 50px;
   line-height: 50px;
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 104, layout.scss */
 #wrapper {
   display: none;
   _position: absolute;
-  /* IE6対策 */
-}
+  /* IE6対策 */ }
 
-/* line 110, layout.scss */
 .loader {
   width: 100%;
   height: 100%;
@@ -134,31 +100,23 @@ body > #wrapper {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 200;
-}
-/* line 118, layout.scss */
-.loader .logoarea {
-  width: 20%;
-  height: 0;
-  padding-top: 20%;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 100;
-}
-@media screen and (max-width: 767px) {
-  /* line 118, layout.scss */
+  z-index: 200; }
   .loader .logoarea {
-    width: 40%;
-    padding-top: 40%;
-  }
-}
-
-/*# sourceMappingURL=layout.css.map */
+    width: 20%;
+    height: 0;
+    padding-top: 20%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100; }
+    @media screen and (max-width: 767px) {
+      .loader .logoarea {
+        width: 40%;
+        padding-top: 40%; } }

@@ -1,12 +1,6 @@
-/* line 7, extend.scss */
 .clearfix {
-  *zoom: 1;
-}
-/* line 11, extend.scss */
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/*# sourceMappingURL=extend.css.map */
+  *zoom: 1; }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both; }

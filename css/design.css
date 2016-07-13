@@ -1,31 +1,19 @@
-/* line 7, extend.scss */
 .clearfix {
-  *zoom: 1;
-}
-/* line 11, extend.scss */
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+  *zoom: 1; }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both; }
 
-/* line 5, design.scss */
 .eachpost {
-  height: 450px;
-}
-/* line 7, design.scss */
-.eachpost .img {
-  display: block;
-  width: auto;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
+  height: 450px; }
+  .eachpost .img {
+    display: block;
+    width: auto;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; }
 
-/* line 22, design.scss */
 h1 {
-  margin: 0;
-}
-
-/*# sourceMappingURL=design.css.map */
+  margin: 0; }
