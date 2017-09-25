@@ -17,7 +17,9 @@
 											<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 										</h3>
 										<div>
+								            <?php /*
 											<?php the_content('read more'); ?>
+                                            */ ?>
 											<span class="date"><?php the_date('Y.n.d'); ?></span>
 											<span class="category"><?php the_category(); ?></span>
 										</div>
