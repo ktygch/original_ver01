@@ -10,6 +10,7 @@
 		<title><?php wp_title('');?> | <?php bloginfo('name'); ?></title>
 	<?php endif; ?>
 	
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/html5reset-1.6.1.css">
 	<link href="<?php bloginfo('template_directory'); ?>/css/bs/bootstrap.min.css" rel="stylesheet">
 	<link href="<?php bloginfo('template_directory'); ?>/css/layout.css" rel="stylesheet">
 	<link href="<?php bloginfo('template_directory'); ?>/css/design.css" rel="stylesheet">
@@ -26,7 +27,7 @@
 <body <?php body_class(); ?>>
 
 	<div class="loader">
-		<span class="logoarea">OFFICE DRUNK</span>
+		<span class="logoarea"><?php bloginfo('title'); ?></span>
 	</div>
 	
 	<div id="hiddenWin">
@@ -40,6 +41,6 @@
 				ヘッダー
 			</div>
 			<div class="fixedmenu">
-				<h1><a href="<?php bloginfo('url'); ?>">Office Drunk</a></h1>
+				<h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('title'); ?></a></h1>
 				<a href="#" class="showbtn1">開く</a>
 			</div>
