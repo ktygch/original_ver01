@@ -1,0 +1,1 @@
+$("head").append('<style type="text/css">#wrapper { display: none; } .loader, #wrapper { display: block; }</style>'),jQuery.event.add(window,"load",function(){$("#wrapper").height();$(".loader").delay(400).fadeOut(800),$("#wrapper").fadeIn(2800),$("#wrapper").css("display","block")});
