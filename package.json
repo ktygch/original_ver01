@@ -8,20 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ktygch/original_ver01.git"
+    "url": "git+https://ktygch@github.com/ktygch/original_ver01.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ktygch/original_ver01/issues"
   },
-  "homepage": "https://github.com/ktygch/original_ver01",
+  "homepage": "https://github.com/ktygch/original_ver01#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-frontnote": "^1.0.3",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-compass": "^2.1.0",
     "gulp-plumber": "^1.1.0",
-    "gulp-sass": "^2.3.2",
-    "gulp-uglify": "^1.5.4"
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
   }
 }
